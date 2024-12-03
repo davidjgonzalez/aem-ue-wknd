@@ -182,6 +182,20 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "cta-label",
+        "value": "",
+        "label": "CTA label",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "cta-link",
+        "value": "",
+        "label": "CTA link",
+        "valueType": "string"
       }
     ]
   }
