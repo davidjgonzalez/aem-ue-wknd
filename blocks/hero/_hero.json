@@ -23,6 +23,24 @@
         {
           "component": "reference",
           "valueType": "string",
+          "name": "classes",
+          "label": "Style",
+          "multi": false,
+          "description": "Select a style for the hero",
+          "options": [
+            {
+              "name": "Main",
+              "value": "main"
+            },
+            {
+              "name": "Default",
+              "value": "default"
+            }
+          ]
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
           "name": "image",
           "label": "Image",
           "multi": false
@@ -36,21 +54,21 @@
         },
         {
           "component": "richtext",
-          "name": "text",
+          "name": "content_text",
           "value": "",
           "label": "Text",
           "valueType": "string"
         },
         {
           "component": "reference",
-          "name": "cta",
+          "name": "content_cta",
           "value": "",
           "label": "CTA",
           "valueType": "string"
         },
         {
           "component": "text",
-          "name": "ctaText",
+          "name": "content_ctaText",
           "value": "",
           "label": "CTA label",
           "valueType": "string"

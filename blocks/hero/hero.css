@@ -27,7 +27,7 @@
   font-size: var(--heading-font-size-l);
 }
 
-.block.hero .overlay { 
+.block.hero > div:nth-child(2) { 
   position: absolute;
   bottom: 0; 
   left: 50%;
