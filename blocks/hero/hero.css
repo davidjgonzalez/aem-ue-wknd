@@ -6,7 +6,10 @@
 .block.hero {
   position: relative;
   padding: 40px 24px;
-  min-height: 400px;
+  min-height: 500px;
+  margin-left: clamp(2rem, 5%, 10rem);
+  margin-right: clamp(2rem, 5%, 10rem);
+
 }
 
 .block.hero picture {
