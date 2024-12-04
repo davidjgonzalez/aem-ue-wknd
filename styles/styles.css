@@ -12,16 +12,20 @@
 
 :root {
   /* colors */
+  --primary-color: rgb(255, 234, 0);
+  --secondary-color: rgb(32, 32, 32);
+  --tertiary-color: rgb(255, 255, 255);
+
   --background-color: white;
   --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --dark-color: #000000;
 
+  --text-color: #131313;
+  --link-color: var(--dark-color);
+  --link-hover-color: var(--secondary-color);
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --heading-font-family: "Asar", Georgia, "Times New Roman", Times, serif;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -181,8 +185,8 @@ button {
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  background-color: var(--link-color);
-  color: var(--background-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
