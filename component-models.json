@@ -178,21 +178,21 @@
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "content_text",
         "value": "",
         "label": "Text",
         "valueType": "string"
       },
       {
         "component": "reference",
-        "name": "cta",
+        "name": "content_cta",
         "value": "",
         "label": "CTA",
         "valueType": "string"
       },
       {
         "component": "text",
-        "name": "ctaText",
+        "name": "content_ctaText",
         "value": "",
         "label": "CTA label",
         "valueType": "string"
