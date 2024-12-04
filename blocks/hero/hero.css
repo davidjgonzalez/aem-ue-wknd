@@ -26,10 +26,7 @@
   height: 100%;
 }
 
-.block.hero h1 { 
-  font-size: var(--heading-font-size-l);
-}
-
+/* Content overlay */
 .block.hero > div:nth-child(2) { 
   position: absolute;
   bottom: 0; 
@@ -40,7 +37,11 @@
   width: clamp(200px, 50%, 800px);
 }
 
-.block.hero .cta {
+.block.hero h1 { 
+  font-size: var(--heading-font-size-l);
+}
+
+.block.hero .button {
   background-color: var(--primary-color);
   border-radius: 0;
   color: var(--dark-color);
