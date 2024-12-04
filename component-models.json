@@ -163,10 +163,11 @@
     "id": "hero",
     "fields": [
       {
-        "component": "reference",
+        "component": "select",
         "valueType": "string",
         "name": "classes",
-        "label": "Style",
+        "values": "",
+        "label": "Hero style",
         "multi": false,
         "description": "Select a style for the hero",
         "options": [
