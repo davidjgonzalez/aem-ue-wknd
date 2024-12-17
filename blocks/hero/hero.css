@@ -23,13 +23,6 @@
   padding: 2rem;
 }
 
-.block.hero picture {
-
-}
-
-.block.hero picture img {
-}
-
 /* Content */
 .block.hero h1 { 
   font-size: var(--heading-font-size-l);
