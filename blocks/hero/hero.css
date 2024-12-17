@@ -7,7 +7,7 @@
 
 .block.hero {
   display: flex;
-  background-color: red !important;
+  background-color: green !important  ;
 }
 
 .block.hero > div {
